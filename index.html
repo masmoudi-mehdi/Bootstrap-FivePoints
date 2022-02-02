@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Contact V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="container-fluid">
+			<!-- offset pour ignorer  -->
+			<div class="d-flex myForm">
+				<div class="col-5 myText">
+					<img src="https://fivepoints.fr/assets/images/logo-white.png" class="col-12" alt="">
+					<div class="container">
+						<div class="card d-flex justify-content-center">
+							<img src="data:image/png;base64,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"
+								class="img-fluid. max-width: 100% height: auto" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Five Points</h5>
+								<p class="card-text">Le meilleur investissement c'est celui que vous faites en vous
+									même.</p>
+								<a href="https://fivepoints.fr/" class="btn btn-success col-12">Join FivePoints</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<form class="col-6  ">
+					<div class="test">
+						<div class="mb-3">
+							<label for="email" class="form-label">Email address</label>
+							<div class="input-group mb-3">
+								<span class="input-group-text" id="basic-addon1">@</span>
+								<input type="text" class="form-control" placeholder="Username" aria-label="Username"
+									aria-describedby="basic-addon1" id="email">
+							</div>
+						</div>
+						<label for="password" class="form-label">Password</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1"> <svg xmlns="http://www.w3.org/2000/svg"
+									width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+									<path
+										d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+								</svg></span>
+							<input type="password" class="form-control" placeholder="Password" id="password">
+
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+								value="option2">
+							<label class="form-check-label" for="inlineRadio2">Resident</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+								value="option2">
+							<label class="form-check-label" for="inlineRadio2">Visitor</label>
+						</div>
+
+						<br>
+						<br>
+						<label for="exampleInputEmail1" class="form-label">Send The Email To</label>
+						<select class="form-select" aria-label="Default select example">
+							<option selected value="marketing">Marketing Department</option>
+							<option value="finance">Finance Department</option>
+							<option value="communication">Communication Department</option>
+						</select>
+
+						<hr>
+						<label for="customRange1" class="form-label">Level Of Emergency</label>
+						<input type="range" class="form-range" id="customRange1">
+
+						<div class="mb-3">
+							<label for="exampleFormControlTextarea1" class="form-label">Write Your Email Here</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary col-12">Send it</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
